@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Test3</string>
+    <string name="profile">Profile</string>
+    <string name="ame">Andrew Ainsley</string>
+    <string name="number">+1 111 467 378 399</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="english_us">English(US)</string>
+
 </resources>

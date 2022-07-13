@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#181A20"
+    android:background="@color/background"
     android:layout_height="wrap_content">
 
     <ImageView
@@ -15,19 +16,21 @@
         android:src="@drawable/settings"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/optionText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:text="Edit Profile"
+        android:text="@string/edit_profile"
         android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/startIcon"
         app:layout_constraintStart_toEndOf="@+id/startIcon"
-        app:layout_constraintTop_toTopOf="@+id/startIcon" />
+        app:layout_constraintTop_toTopOf="@+id/startIcon"
+        tools:ignore="HardcodedText" />
 
     <ImageView
         android:id="@+id/endIcon"
@@ -39,6 +42,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/optionText"
-        app:layout_constraintTop_toTopOf="@+id/optionText" />
+        app:layout_constraintTop_toTopOf="@+id/optionText"
+        tools:ignore="ContentDescription" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

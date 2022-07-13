@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#181A20"
+    android:background="@color/background"
     android:layout_height="match_parent">
 
     <androidx.appcompat.widget.AppCompatImageView
@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
-        android:text="Profile"
+        android:text="@string/profile"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="18sp"
@@ -63,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="Andrew Ainsley"
+        android:text="@string/ame"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/cardView"
@@ -75,7 +75,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="3dp"
-        android:text="+1 111 467 378 399"
+        android:text="@string/number"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/appCompatTextView"
         app:layout_constraintStart_toStartOf="@+id/appCompatTextView"
